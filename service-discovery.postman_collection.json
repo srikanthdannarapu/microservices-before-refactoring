@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "44abeadf-5020-4155-8609-bc92b03d069e",
+		"name": "service-discovery",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "movie-info-service",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/movies/200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"movies",
+						"200"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ratings-data-service",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/ratingsdata/user/15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"ratingsdata",
+						"user",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "movie db api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/550?api_key=a5bf9c5b9e40fa213a748f306df8e49f",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"550"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "a5bf9c5b9e40fa213a748f306df8e49f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "movie-info-service",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/movies/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"movies",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "movie-catalog-service",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/catalog/15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"catalog",
+						"15"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
